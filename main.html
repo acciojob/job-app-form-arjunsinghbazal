@@ -7,6 +7,29 @@
 </head>
 
 <body>
+	<form action="jp.php" method="post">
+    <label for="name">Name</label>
+    <input type="text" id="name" required><br>
+    <label for="email">Email</label>
+    <input type="email"  id="email" required><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" required><br>
+    <label for="gender">Gender</label>
+    <input type="radio" class="gender" name="gender" required>Male <input type="radio" name="gender" class="gender">Female <br>
+    <label for="laptop">laptop Brands</label>
+    <select name="lap" id="laptop">
+        <option value="1">Apple
+        </option>
+        <option value="2">Aus
+        </option>
+        <option value="3">HP</option>
+    </select><br>
+    <label for="dob">DOB</label>
+    <input type="date" id="dob" required><br>
+    <label for="age">Age</label>
+    <input type="number" name="" id="age" required><br>
+    <button type="submit">Submit</button>
+   </form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
